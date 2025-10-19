@@ -78,4 +78,5 @@ export const useExpenses = () => {
     throw new Error("useExpenses must be used within an ExpenseProvider");
   }
   return context;
+
 };
